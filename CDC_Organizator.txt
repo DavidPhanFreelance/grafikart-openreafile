@@ -1,0 +1,45 @@
+Cahier des charges techniques : Organizator										
+										
+# Cahier des charges technique										
+										
+## 1. Objectif du projet										
+### 1.1 But du projet										
+"Développer une application qui se lance en local qui prendra en paramètre un dossier contenant des images.
+Celle-ci triera en déplacera les images trier par année (par défaut) et par mois/trimestre (en option)
+On renverra un zip qui contiendra toutes les images ranger dans des dossier classé par années et mois."										
+										
+### 1.2 Contexte										
+"Des centaines de photos et d'images sont prises et téléchargés sur notre téléphone 
+sans qu'on prenne le temps de faire le tri.
+L'outil devrait aider les utilisateurs à trier et libérer de l'espace rapidement sur leur téléphone."										
+										
+## 2. Fonctionnalités principales										
+### 2.1 Fonctionnalités de base										
+Range les photos par années										
+										
+### 2.2 Fonctionnalités optionnelles										
+Range les photos par mois, screenshots										
+										
+## 3. Spécifications techniques										
+### 3.1 Technologies										
+Full reactJS										
+										
+### 3.2 Architecture										
+L'application sera un outil qui se lancera en local sous ligne de commande										
+										
+### 4. Planification										
+"I/ Dév le CORE
+a.        Parcourir un dossier, Récupérer les métadatas d'une image
+b.        Créer un dossier, Déplacer des images, Créer un ZIP
+
+II/ Dév les options
+a.       Trier en fonction des mois, trier en fonction SCREENSHOTS"										
+										
+## 6. Plan de test										
+### 6.1 Stratégie de test										
+- Tests utilisateurs pour obtenir des retours sur l'expérience utilisateur.										
+										
+## 7. Documentation et support										
+### 7.1 Documentation										
+- Guide utilisateur : Comment utiliser l'application.										
+- Documentation technique : Comment installer et configurer l'application.										
